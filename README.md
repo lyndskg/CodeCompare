@@ -194,15 +194,17 @@ Moreover, user privacy and data protection are at the forefront, as the extensio
 <a name="time"></a>
 >
 ### Time Estimate: 
-> 
-> This project's estimated timeline is 3 months, with the following breakdown:
 >
-> Initial Setup and UI Development: 1 week
-> Reddit API Integration and Data Retrieval: 2 weeks
-> Machine Learning Model Development: 3 weeks
-> Data Scraping and Pseudo-r/ELI5 Generation: 2 weeks
-> Storage Management and Error Handling: 1 week
-> Testing, Optimization, and Polishing: 2 weeks
+> The estimated time to complete the entire project is approximately 12 weeks, considering a total of 2 weeks for each major phase.
+>
+> Project Setup and Front-end Development (2 weeks)
+> Back-end Development and Database Integration (2 weeks)
+> Language Comparator and Pros/Cons Generation (2 weeks)
+> Visualizations and Difficulty Assessment (2 weeks)
+> Learning Roadmap and Study Guide Generation (2 weeks)
+> Bootcamp Recommendations and Progress Tracking (1 week)
+> Testing and Debugging (2 weeks)
+> User Interface Polishing and Finalization (1 week)
 
 &nbsp;
   
@@ -263,66 +265,28 @@ Moreover, user privacy and data protection are at the forefront, as the extensio
 
 <a name="i"></a>
 ### Input:
-> - Users provide input by hovering the cursor over a word/phrase on any webpage.
->   - When the user hovers the cursor over a word or phrase on any webpage, the extension detects the highlighted term and initiates a request for the ELI5 explanation.
+> - Users provide information about their coding goals, preferred domains, and desired features through the user interface.
 >
 <a name="o"></a>
 ### Output:
-> - ELI5 definition appears in a drop-down widget, along with relevant r/ELI5 comments or auto-generated pseudo-r/ELI5 explanations.
->   - The ELI5 definition appears in a non-intrusive drop-down widget adjacent to the highlighted word/phrase.
->   - The widget disappears as soon as the mouse moves away from the term.
->   - If the word/phrase has been queried on r/ELI5, the widget will display relevant comments sorted by Reddit's "top" mechanism.
->   - If the term/phrase has not been queried yet on r/ELI5, the widget will show an auto-generated pseudo-r/ELI5 explanation using ML techniques and data scraping. 
+> - CodeCompare presents a list of recommended programming languages, pros and cons lists, Venn diagrams, and a personalized learning roadmap. 
 
 &nbsp;
 
 <a name="sys"></a>
 ### System Permissions and Requirements:
-
-The extension requires access to the current webpage to detect and process user input.
-
-
-> **Internet Access:**
-> - The extension requires an internet connection to fetch data from the Reddit API, perform data scraping, and access other online sources for pseudo-r/ELI5 generation.
-> **Chrome Web Browser:**
-> - `eli5-chrome` is a Google Chrome extension, and users must have the Chrome browser installed to use it.
-> **Chrome Extension Installation:**
-> - Users need permissions to install and enable the extension on their Chrome browsers to utilize `eli5-chrome`'s functionality.
-> **Local Storage Access:**
-> - The extension requires permission to access Chrome's local storage to store user preferences and cache frequently accessed terms for improved performance.
-
-> Put
-> Shit
-> Here
-
+> 
+> CodeCompare requires internet access to fetch and display data, as well as to access online bootcamp recommendations.
+> Users' learning progress is stored locally or in a cloud database, requiring permission for data storage.
 
 <a name="user"></a>
 ### User Permissions and Requirements:
-
-The extension requires access to the current webpage to detect and process user input.
-
-
-> **Hovering over Words/Phrases:**
-> - Users can interact with the extension by simply hovering the cursor over a word or phrase on any webpage to trigger the ELI5 explanation pop-up.
-> **Allowing Extension Installation:**
-> - Users must have permission to install Chrome extensions. This permission allows users to enable the `eli5-chrome` extension on their Chrome browsers.
-> **Providing Internet Access:**
-> - Users should ensure their devices have an active internet connection to access r/ELI5 and other online sources for generating pseudo-r/ELI5 explanations.
-> **No Personal Data Collection:**
-> - `eli5-chrome` does not collect or store any personal user data. Users can rest assured that their browsing activities and interactions with the extension remain private.
-> **Feedback and Reporting:**
-> - Users are encouraged to provide feedback, report bugs, and suggest improvements through the extension's interface or the project's GitHub repository.
-> **Responsible Use:**
-> - Users are expected to use the extension responsibly and not engage in any activities that violate Reddit's terms of service or involve any malicious intent.
-> **Open Source Contribution:**
-> - While not a requirement, users interested in contributing to the project's development can follow the guidelines provided in the project's repository.
-
-> Put
-> Shit
-> Here
+> 
+> Users should have access to a modern web browser with JavaScript enabled.
+> Permission to submit preferences and interact with the user interface.
 
 
-<p align="right">(<a href="#eli5">back to top</a>)</p>
+<p align="right">(<a href="#cc">back to top</a>)</p>
 
 ---------------------
 
@@ -389,27 +353,53 @@ But what about terms that have not been previously queried on r/ELI5? `eli5-chro
 <a name="give"></a>
 ## How and Why to Contribute
 
-Contributions to `eli5-chrome` are encouraged and welcomed! Here's how you can contribute:
+We believe that community contributions are essential to making CodeCompare a valuable and comprehensive tool for learners worldwide. There are several ways individuals can contribute to the project, each playing a crucial role in its growth and success.
 
-- **Bug Reports:** Report any issues, bugs, or errors you encounter while using the extension.
-- **Feature Requests:** Suggest new features or improvements to enhance the extension's functionality.
-- **Code Contributions:** Contribute to the development of new features or bug fixes by creating pull requests.
-- **Documentation:** Help improve the README.md or add more detailed documentation to the project.
+1. Bug Reports and Issue Tracking:
+> - *<ins>How to Contribute</ins>*: Users and developers can report bugs, errors, or any unexpected behavior they encounter while using CodeCompare through the project's issue tracking system on GitHub.
+> - *<ins>Why to Contribute</ins>*: Bug reports help improve the stability and reliability of the application, ensuring a seamless user experience for all.
 
-
-By contributing to `eli5-chrome`, you can make the internet a more accessible and informative place for users of all ages and backgrounds.
-
-
-We invite you to contribute to `eli5-chrome`'s growth and make the internet a more comprehensible space.\
-Whether you report bugs, suggest improvements, or contribute to the open-source development, your participation empowers others to gain knowledge with ease.\
-Together, we can transform `eli5-chrome` into an indispensable tool for fostering a culture of accessible and simplified learning across the internet.
+2. Feature Requests and Enhancements:
+> - *<ins>How to Contribute</ins>*: Users can suggest new features, enhancements, or improvements they would like to see in CodeCompare by creating feature request issues on GitHub.
+> - *<ins>Why to Contribute</ins>*: Feature requests provide valuable insights into users' needs and aspirations, guiding the development team in expanding CodeCompare's functionalities.
 
 
-> Put
-> Shit
-> Here
+3. **<ins>Code Contributions</ins>:**
+> - *<ins>How to Contribute</ins>*: Developers can contribute to the project by submitting pull requests on GitHub. These pull requests may include bug fixes, new features, code optimizations, or any improvements to the existing codebase.
+> - *<ins>Why to Contribute</ins>*: Code contributions help in refining the codebase, adding new functionalities, and ensuring that CodeCompare remains relevant and up-to-date with the latest technologies.
 
-<p align="right">(<a href="#eli5">back to top</a>)</p>
+4. **<ins>Documentation</ins>:**
+> - *<ins>How to Contribute</ins>*: Improving the project's documentation, including the `README.md` and other guides, can be accomplished through pull requests on GitHub.
+> - *<ins>Why to Contribute</ins>*: Comprehensive and well-maintained documentation facilitates user understanding and ensures a smoother onboarding experience for new users and contributors.
+
+5. **<ins>Testing and Feedback</ins>:**
+> - *<ins>How to Contribute</ins>*: Users and developers can actively test `CodeCompare`, exploring its features and functionalities and providing valuable feedback through the issue tracking system.
+> - *<ins>Why to Contribute</ins>:* Testing and feedback help identify potential issues and provide valuable insights for enhancing the user experience and overall project quality.
+
+6. **<ins>Spread the Word</ins>:**
+> - *<ins>How to Contribute</ins>*: Advocating for `CodeCompare` through social media, technical forums, and programming communities can increase its visibility and attract new users and contributors.
+> - *<ins>Why to Contribute</ins>*: Spreading awareness about `CodeCompare` can lead to a more diverse and engaged user base, fostering a vibrant community and inspiring further contributions.
+
+**<ins>Benefits of Contributing</ins>:** 
+> Contributing to `CodeCompare` offers numerous benefits to both individual contributors and the programming community as a whole:
+>
+> - **Skill Development:** By participating in a collaborative project like `CodeCompare`, contributors can enhance their coding skills, gain experience with version control, and learn from the diverse perspectives of fellow developers.
+> - **Resume and Portfolio Enhancement:** Contributions to an open-source project like `CodeCompare` can be a valuable addition to a developer's resume or portfolio, showcasing their ability to work in a team and their dedication to the open-source community.
+> - **Positive Impact:** Every contribution, no matter how small, contributes to the continuous improvement of `CodeCompare`, benefiting countless learners seeking guidance on their programming journey.
+> - **Community Engagement:** Contributing to `CodeCompare` fosters connections with like-minded individuals in the programming community, encouraging collaboration and knowledge sharing.
+> - **Personal Growth:** The process of contributing to a project fosters personal growth, adaptability, and problem-solving skills, valuable qualities for any developer's career.
+
+
+By fostering a welcoming and collaborative environment, `CodeCompare` aims to inspire and empower individuals to participate in its development, building a platform that truly serves the needs of learners worldwide.
+
+&nbsp;
+
+Join us in making `CodeCompare` an indispensable resource for learners, and together, we can simplify the process of choosing and mastering programming languages. 
+
+
+Happy contributing!
+
+<p align="right">(<a href="#cc">back to top</a>)</p>
 
 ---------------------
 <a name="plus"></a>
@@ -420,7 +410,7 @@ Together, we can transform `eli5-chrome` into an indispensable tool for fosterin
 > Shit
 > Here
 
-<p align="right">(<a href="#eli5">back to top</a>)</p>
+<p align="right">(<a href="#cc">back to top</a>)</p>
 
 ---------------------------
 <a name="conc"></a> 
@@ -429,7 +419,7 @@ Together, we can transform `eli5-chrome` into an indispensable tool for fosterin
 Embark on your programming adventure with CodeCompare and unleash your potential as a developer. With its powerful language comparators, insightful pros and cons lists, engaging Venn diagrams, and personalized study guides, CodeCompare guides you towards the best-suited programming language for your aspirations. Take the first step towards your coding goals and let CodeCompare be your guiding light in the world of programming. Simplify your language selection, chart your learning path, and become the proficient coder you aspire to be with CodeCompare!
 
 
-<p align="right">(<a href="#eli5">back to top</a>)</p>
+<p align="right">(<a href="#cc">back to top</a>)</p>
 ---
 
 <a name="lic"></a>
@@ -438,7 +428,7 @@ Embark on your programming adventure with CodeCompare and unleash your potential
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#eli5">back to top</a>)</p>
+<p align="right">(<a href="#cc">back to top</a>)</p>
 
 ---------------------------
 <a name="contact"></a>
@@ -449,7 +439,7 @@ Your Name - [@lyndskg](https://twitter.com/lyndskg) - lyndsey.gu@gmail.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
-<p align="right">(<a href="#eli5">back to top</a>)</p>
+<p align="right">(<a href="#cc">back to top</a>)</p>
 
 ---------------------------
 <a name="ack"></a>
@@ -471,7 +461,7 @@ Use this space to list resources you find helpful and would like to give credit 
 > Shit
 > Here
 
-<p align="right">(<a href="#eli5">back to top</a>)</p>
+<p align="right">(<a href="#cc">back to top</a>)</p>
 
 
 
